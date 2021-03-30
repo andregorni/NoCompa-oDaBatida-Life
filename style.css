@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    background: #129799;
+    height: 430px;
+    
+    
+}
+
+
+.box-nav {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+
+
+.box-header {
+    color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.life {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-subnav {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+        
+}
+
+
+/* FIM DA HEADER */
+
+main {
+    background: #FFA185;
+}
+
+h2 {
+    color: #F7F7F7;
+    margin-bottom: 20px;
+    
+    
+}
+
+.box-main {
+
+    margin-left: 100px;
+    margin-right: 600px; 
+    
+}
+
+.box-fts {
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.img-a {
+  
+    width: 520;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.img-b {
+    
+    width: 520;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.img-c {
+
+    width: 520;
+    height: 300px;
+    margin-right: 20px;
+    
+}
+
+.img-d {
+    
+    width: 520;
+    height: 300px;
+}
+
+.box-conteudo {
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+/* FIM DA MAIN */
+
+
+
+.box-img-footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    cursor: pointer;
+}
+
+
+.box-divfoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box-footer {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+footer {
+    background: #129799;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    
+}
+
